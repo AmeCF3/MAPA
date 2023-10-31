@@ -2,3 +2,34 @@
     font-size: 5vw;
     padding: 0px 0px 100px 20vw;
 }
+
+.cont-history-paq{
+    width: 100vw;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #EBBBB0;
+    border-bottom: 1px solid #EBBBB0;
+
+}
+
+.cont-history-paq p{
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 20px 30px 20px;
+    color: #67595e;
+}
+
+.cont-img-paquetes{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cont-img-paquetes img{
+    width: 400px;
+}

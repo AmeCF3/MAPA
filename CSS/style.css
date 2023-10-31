@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-selected {
+    font-weight: 700;
+}
+
+/* Contenedor general del navegador */
+.cont1-nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #F4B9B8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 6px 15px -2px rgba(103, 89, 94, 0.10);
+    position: relative;
+}
+
+/* Contenedor de todos los links */
+.menu {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Contenedor de cada link */
+.menu-item {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.menu-link {
+    color: #67595ed9;
+}
+
+/* Contenedor imagen waves */
+.cont1-img {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.cont1-img h1 {
+    width: 100vw;
+    display: flex;
+    font-size: 4.5rem;
+    position: absolute;
+    padding: 0px 0px 100px 37vw;
+    color: #67595ed9;
+    z-index: 1;
+}
+
+.cont-img-logo {
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    padding: 0px 0px 100px 20vw;
+    z-index: 1;
+}
+
+.img-logo {
+    width: 180px;
+}
+
+.cont1-img .header-waves {
+    background-color: #F4B9B8;
+    height: 80vh;
+}
+
+
+.cont1-img-serv,
+.cont1-img-paqu,
+.cont1-img-cont {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.cont1-img-serv .header-waves-serv,
+.cont1-img-paqu .header-waves-paqu,
+.cont1-img-cont .header-waves-cont {
+    background-color: #F4B9B8;
+    width: 100vw;
+    height: 50vh;
+}
+
+.cont1-img-cont h1,
+.cont1-img-paqu h1,
+.cont1-img-serv h1 {
+    width: 100vw;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    color: #67595ed9;
+    z-index: 1;
+}
+
+.cont-history{
+    width: 100vw;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-history p{
+    background-color: #f4b9b82c;
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 20px 30px 20px;
+    color: #67595e;
+}
+
+
+.facial-home{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #EBBBB0;
+    border-bottom: 1px solid #EBBBB0;
+    margin-bottom: 50px;
+
+}
+
+.img1{
+    width: 400px;
+    border-radius: 2px;
+    margin: 20px 0px 20px 0px;
+}
+
+.text-facial-home{
+    width: 60%;
+    display: block;
+}
+
+.text-facial-home h2{
+    text-align: center;
+    font-size: 50px;
+    color: #EBBBB0;
+    padding-bottom: 10px;
+}
+
+.text-facial-home p {
+    font-size: 30px;
+    color: #67595eee;
+    padding-bottom: 10px;
+}
+
+.text-facial-home a{
+    font-size: 25px;
+    color: #EBBBB0;
+    font-weight: 600;
+}
+
+.cont-link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* https://www.canva.com/colors/color-palettes/clusters-of-beauty/
+https://www.canva.com/colors/color-palettes/rosy-flamingo/ */

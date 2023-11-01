@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estética Mapa</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/footer.css">
-    <link rel="stylesheet" href="/CSS/paquetes.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,34 +14,62 @@
     <!--Iconos-->
     <script src="https://kit.fontawesome.com/d4e3e2d92d.js" crossorigin="anonymous"></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./Multimedia/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Multimedia/favicon.ico">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/contacto.css">
+
+    <!-- SWEETALERT -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body>
     <nav>
         <div class="cont1-nav">
             <ul class="menu">
-                <li class="menu-item"><a class="menu-link" href="/index.html">Home</a></li>
-                <li class="menu-item"><a class="menu-link" href="/HTML/servicios.html">Servicios</a></li>
-                <li class="menu-item"><a class="menu-link menu-selected" href="#">Paquetes</a></li>
-                <li class="menu-item"><a class="menu-link" href="/HTML/contacto.html">Contacto</a></li>
+                <li class="menu-item"><a class="menu-link" href="../index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-link" href="../HTML/servicios.html">Servicios</a></li>
+                <li class="menu-item"><a class="menu-link" href="../HTML/paquetes.html">Paquetes</a></li>
+                <li class="menu-item"><a class="menu-link menu-selected" href="#">Contacto</a></li>
             </ul>
         </div>
     </nav>
-    <div class="cont1-img-paqu">
-        <h1>Paquetes y promociones</h1>
-        <img class="header-waves-paqu"
-            src="/Multimedia/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.webp"
+    <div class="cont1-img-cont">
+        <h1>Contactanos</h1>
+        <img class="header-waves-cont"
+            src="../Multimedia/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.webp"
             alt="waves">
     </div>
-
-    <div class="cont-history-paq">
-        <p>
-            Hemos diseñado paquetes especiales para nuestros clientes los cuales se iran actualizando mes a mes, no dejes de visitarnos para conocer el del próximo mes.
-        </p>
-    </div>
-    <div class="cont-img-paquetes">
-        <img src="/Multimedia/promos octubre.jpg" alt="">
+    <div>
+        <div class="contenedor-form">
+            <div class="contact-wrapper animated bounceInUp contenedor-hijo">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <p>
+                            <label>Nombre y Apellido*</label>
+                            <input type="text" name="nombreApellido">
+                        </p>
+                        <p>
+                            <label>Email*</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Número de teléfono*</label>
+                            <input type="tel" name="telefono">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <input type="submit" id="buttonForm" class="button_contact" value="ENVIAR">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="pie-pagina">
         <div class="grupo-1">
@@ -73,6 +99,8 @@
             <small>&copy; 2023 <b>AAJCF</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+   
+    <script src="../JS/form.JS"></script>
 </body>
 
 </html>

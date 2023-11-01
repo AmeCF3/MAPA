@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estética Mapa</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,6 +14,10 @@
     <script src="https://kit.fontawesome.com/d4e3e2d92d.js" crossorigin="anonymous"></script>
     <!-- FAVICON -->
     <link rel="icon" type="image/png" sizes="32x32" href="./Multimedia/favicon.ico">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+
 </head>
 
 <body>
@@ -31,11 +33,11 @@
     </nav>
     <div class="cont1-img">
         <div class="cont-img-logo">
-            <img class="img-logo" src="/Multimedia/logo.png" alt="logo">
+            <img class="img-logo" src="./Multimedia/logo.png" alt="logo">
         </div>
         <h1>Estética MAPA</h1>
         <img class="header-waves"
-            src="/Multimedia/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.webp"
+            src="./Multimedia/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.webp"
             alt="waves">
     </div>
 
@@ -119,6 +121,25 @@
             <small>&copy; 2023 <b>AAJCF</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyAp3CZM7mzgVdI4G6ykp8LQdfh8lA7EtAE",
+          authDomain: "mapa-fc8bc.firebaseapp.com",
+          projectId: "mapa-fc8bc",
+          storageBucket: "mapa-fc8bc.appspot.com",
+          messagingSenderId: "270620033203",
+          appId: "1:270620033203:web:b7d323fea1930e381e30c6"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
 </body>
 
 </html>
